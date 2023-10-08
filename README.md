@@ -37,10 +37,10 @@ yarn start
 ```
 For Backend.
 
-Open another terminal in folder, Also make sure mongodb is running in background.
+Open another terminal in folder, Also make sure mongodb is running in background. I have used MongoDB Compass.
 ```shell
 cd server
 yarn start
 ```
 
-Done! Now open localhost:3000 in your browser.
+Done! Now open localhost:3000 in your browser. If the port is already in use, change the port in the .env file in the server folder and the APIRoutes file in the public folder.
